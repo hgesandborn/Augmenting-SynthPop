@@ -13,7 +13,7 @@ Each folder corresponds to 1 North Carolina county. There are 100 counties.
 
 37001 = Alamance County\
 ...\
-37199 = Yancey County\
+37199 = Yancey County
 
 
 Inside each county folder, there are 5 files.
@@ -31,14 +31,14 @@ HYPER = Hypertension (0 = no, 1 = yes)\
 OBESE = Obesity (0 = no, 1 = yes)\
 ASTHMA = Asthma (0 = no, 1 = yes)\
 COPD = COPD (0 = no, 1 = yes)\
-DIAB = Diabetes (0 = no, 1 = yes)\
+DIAB = Diabetes (0 = no, 1 = yes)
 
 households.csv is households in that county, containing the following columns:\
 hh_id - Household ID\
 FIPS - County FIPS code\
 hh_size - Household size\
 LAT - Latitude\
-LON - Longitude\
+LON - Longitude
 
 people.csv is all non-group quarters residents in that county, containing the following columns:\
 sp_id - Individual ID\
@@ -53,7 +53,7 @@ HYPER = Hypertension (0 = no, 1 = yes)\
 OBESE = Obesity (0 = no, 1 = yes)\
 ASTHMA = Asthma (0 = no, 1 = yes)\
 COPD = COPD (0 = no, 1 = yes)\
-DIAB = Diabetes (0 = no, 1 = yes)\
+DIAB = Diabetes (0 = no, 1 = yes)
 
 schools.csv is all schools in that county, containing the following columns:\
 NAME - School name\
@@ -61,7 +61,7 @@ sch_id - School ID\
 FIPS - County FIPS code\
 LAT - Latitude\
 LON - Longitude\
-TYPE - Type (Public, Charter, Private)\
+TYPE - Type (Public, Charter, Private)
 
 workplaces.csv is all workplaces in that county, containing the following columns:\
 work_id - Workplace ID\
